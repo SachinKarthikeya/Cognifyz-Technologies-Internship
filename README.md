@@ -25,7 +25,7 @@ Price Range, Aggregate Rating, etc. I have used data pre processing techniques s
 
 The models that are selected for implementation are:
 
-1. ## Random Forest Regressor Model for Rating Prediction
+## 1. Random Forest Regressor Model for Rating Prediction
 
 - Split the Dataset into two parts:- Training the Model(80% dataset) and Testing the Model(20% dataset). Again we separate them into X_train, y_train for training our
 model and X_test and y_test for the actual performance of the model.
@@ -34,14 +34,14 @@ the X_train and y_train into the model.
 - Compare the predictions of both Training Data and Testing Data and generated the R-Square scores of each.
 - Built a predictive system, which takes the name of the restaurant to predict the aggregate rating of the restaurant.
 
-2. ## Nearest Neighbours Algorithm with TF-IDF (Term Frequency-Inverse Document Frequency) for Restaurant Recommendation
+## 2. Nearest Neighbours Algorithm with TF-IDF (Term Frequency-Inverse Document Frequency) for Restaurant Recommendation
 
 - Create a TF-IDF vectorizer to transform the “Cuisines” column from string to numerical attributes and combined it with the other numerical features.
 - Create a Nearest Neighbours Model using Cosine Similarity, which measures the angle between the vectors and fit the required features into the model.
 - Built a recommendation system, which takes the important features such as Cuisines, Average cost for two and aggregate rating and recommends the top
 restaurants based on the user preferences.
 
-3. ## Random Forest Classifier Model for Restaurant Classification
+## 3. Random Forest Classifier Model for Restaurant Classification
 
 - Split the Dataset into two parts:- Training the Model(80% dataset) and Testing the Model(20% dataset). Again we separate them into X_train, y_train for training our
 model and X_test and y_test for the actual performance of the model.
@@ -50,7 +50,7 @@ model.
 - Compare the predictions of both Training Data and Testing Data and generate the accuracy scores of each.
 - Built a classification-based system, which takes the name of the cuisine and classifies the restaurants based on the cuisine.
 
-4. ## K-Means Clustering for Geographical Restaurant Analysis
+## 4. K-Means Clustering for Geographical Restaurant Analysis
 
 - Extract the values of Geographical Longitude and Latitude columns from the dataset.
 - Find the WCSS(Within Clusters Sum of Squares) value of the dataset.
